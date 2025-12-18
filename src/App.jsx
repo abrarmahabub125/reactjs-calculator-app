@@ -1,9 +1,11 @@
-function App() {
+import Todo from "./components/Todo";
+
+const App = () => {
   return (
-    <div>
-      <h1>React + vite + tailwindcss setup</h1>
+    <div className="flex h-screen w-full items-center justify-center bg-gray-200">
+      <Todo />
     </div>
   );
-}
+};
 
 export default App;
